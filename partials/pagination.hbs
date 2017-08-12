@@ -1,0 +1,11 @@
+<nav class="pagination" role="navigation">
+  {{#if next}}
+    <a class="next" href="{{page_url next}}" title="Older">&#0171;</a>
+  {{/if}}
+  {{#if prev}}
+    <a class="previous" href="{{page_url prev}}" title="Newer">&#0187;</a>
+  {{/if}}
+  {{#if pages}}
+    <p class="pageCount">Page {{page}}/{{pages}}</p>
+  {{/if}}
+</nav>

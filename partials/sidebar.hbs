@@ -1,0 +1,32 @@
+<nav class="sidebar-content">
+  <ul class="sidebar-links">
+    <li>
+      <a class="aboutLogo" href="/" title="{{@blog.title}}">
+        {{#if @blog.logo}}
+            <img class="portrait" src="{{@blog.logo}}" alt="{{@blog.title}}" />
+        {{else}}
+            <p>{{@blog.title}}</p>
+        {{/if}}
+      </a>
+    </li>
+    <li>
+      <a id="blogLink" class="icomoon-icon-pencil" title="Email Me" href="mailto:me@chrisb.me"></a>
+    </li>
+    <li>
+      <a id="twitterLink" class="icomoon-icon-twitter" title="Twitter" href="http://twitter.com/ChrisW_B"></a>
+    </li>
+    <li>
+      <a id="rss" class="icomoon-icon-feed" title="RSS" href="{{@blog.url}}/rss/"></a>
+    </li>
+    {{#is "index, tag"}}
+      <li>
+        {{pagination}}
+      </li>
+    {{/is}}
+    {{#is "post"}}
+      <li>
+        {{> "post_pagination"}}
+      </li>
+    {{/is}}
+  </ul>
+</nav>

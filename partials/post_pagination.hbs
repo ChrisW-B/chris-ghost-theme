@@ -1,0 +1,10 @@
+<nav class="pagination" role="navigation">
+  {{#post}}
+  	{{#prev_post}}
+      <a class="previous" href="{{url}}" title="Older">&#0171;</a>
+    {{/prev_post}}
+    {{#next_post}}
+      <a class="next" href="{{url}}" title="Newer">&#0187;</a>
+    {{/next_post}}
+  {{/post}}
+</nav>
