@@ -1,32 +1,35 @@
 {
-    "name": "chris-ghost-theme",
-    "description": "A theme based on a tumblr theme and the casper theme",
-    "demo": "https://photo.chriswbarry.com",
-    "version": "1.3.5",
-    "engines": {
-        "ghost": ">=1.0.0"
-    },
-    "license": "MIT",
-    "author": {
-        "name": "Chris Barry",
-        "email": "me@chrisb.me",
-        "url": "https://photo.chriswbarry.com"
-    },
-    "gpm": {
-        "type": "theme",
-        "categories": [
-            "Minimal",
-            "Personal Blogs"
-        ]
-    },
-    "keywords": [
-        "ghost",
-        "theme"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ChrisW-B/chris-ghost-theme.git"
-    },
-    "bugs": "https://github.com/ChrisW-B/chris-ghost-theme/issues",
-    "contributors": "https://github.com/ChrisW-B/chris-ghost-theme/graphs/contributors"
+  "name": "chris-ghost-theme",
+  "description": "A theme based on a tumblr theme and the casper theme",
+  "demo": "https://photo.chriswbarry.com",
+  "version": "1.3.5",
+  "engines": {
+    "ghost": ">=1.0.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Chris Barry",
+    "email": "me@chrisb.me",
+    "url": "https://photo.chriswbarry.com"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Personal Blogs"
+    ]
+  },
+  "keywords": [
+    "ghost",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisW-B/chris-ghost-theme.git"
+  },
+  "bugs": "https://github.com/ChrisW-B/chris-ghost-theme/issues",
+  "contributors": "https://github.com/ChrisW-B/chris-ghost-theme/graphs/contributors",
+  "config": {
+    "posts_per_page": 8
+  }
 }
