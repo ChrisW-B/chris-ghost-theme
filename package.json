@@ -1,16 +1,16 @@
 {
-    "name": "ChrissTumblr",
+    "name": "chris-ghost-theme",
     "description": "A theme based on a tumblr theme and the casper theme",
-    "demo": "https://demo.ghost.io",
+    "demo": "https://photo.chriswbarry.com",
     "version": "1.3.5",
     "engines": {
-        "ghost": ">=0.9.0 <1.0.0"
+        "ghost": ">=1.0.0"
     },
     "license": "MIT",
     "author": {
         "name": "Chris Barry",
         "email": "me@chrisb.me",
-        "url": "https://ghost.org"
+        "url": "https://photo.chriswbarry.com"
     },
     "gpm": {
         "type": "theme",
@@ -25,8 +25,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Casper.git"
+        "url": "https://github.com/ChrisW-B/chris-ghost-theme.git"
     },
-    "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors"
+    "bugs": "https://github.com/ChrisW-B/chris-ghost-theme/issues",
+    "contributors": "https://github.com/ChrisW-B/chris-ghost-theme/graphs/contributors"
 }
